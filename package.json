@@ -1,0 +1,28 @@
+{
+    "name": "voice-control-bridge",
+    "version": "1.0.0",
+    "description": "Voice Control Bridge",
+    "main": "generateConfig.js",
+    "scripts": {
+        "lint": "eslint src --ext js",
+        "test": "echo 'allright'"
+    },
+    "devDependencies": {
+        "eslint": "^4.19.0",
+        "eslint-config-webbylab": "^4.0.0",
+        "eslint-plugin-fetch": "0.0.1",
+        "eslint-plugin-import": "^2.17.3",
+        "eslint-plugin-more": "^0.3.2",
+        "eslint-plugin-no-require-lodash": "^1.1.0",
+        "eslint-plugin-prefer-spread": "^1.0.3"
+    },
+    "author": "2Smart",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:2SmartCloud/2smart-standalone-homebridge-bridge.git"
+    },
+    "dependencies": {
+        "homebridge-gsh": "^1.4.2",
+        "homebridge-mqttthing": "^1.1.14"
+    }
+}
